@@ -21,8 +21,6 @@ public class TransportClientTest {
 	//	rpcRequest.setParamTypes(null);
 		RpcResponse response = client.invokeSync(rpcRequest);
 		
-		
-		Object data = response.getData();
 		log.info("response={}", response);
 		
 		
